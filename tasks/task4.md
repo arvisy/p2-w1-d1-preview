@@ -4,7 +4,7 @@ Buffered Channel:
 	~ produce dan consume dapat terjadi secara asinkron, karena buffer memungkinkan beberapa elemen dikirim sebelum consume dimulai.
 	~ program utama dapat keluar bahkan sebelum semua nilai dikonsumsi jika buffer tidak kosong.
 
-	Unbuffered Channel:
+Unbuffered Channel:
 	~ produce akan terblokir hingga consume siap menerima setiap nilai yang dikirim.
 	~ consume akan terblokir sampai ada nilai yang dikirim oleh produce.
 	~ sifatnya lebih sinkron karena setiap elemen yang dikirim segera diterima oleh penerima.
